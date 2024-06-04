@@ -1,10 +1,10 @@
 use actix_web::HttpResponse;
-use serde::Deserialize;
-use serde::Serialize;
-use std::collections::HashMap;
-use std::io::Result;
-use std::sync::Arc;
-use std::sync::Mutex;
+use serde::{Deserialize, Serialize};
+use std::{
+    collections::HashMap,
+    io::Result,
+    sync::{Arc, Mutex},
+};
 
 use actix_web::{web, App, HttpServer, Responder};
 
